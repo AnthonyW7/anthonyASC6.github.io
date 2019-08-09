@@ -1,0 +1,106 @@
+body{
+    background-color: #204969;
+}
+#divOne{
+    display: flex;
+    justify-content: flex-start;
+  
+}
+#titleBox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 42px;
+    width: 60%;
+    padding-left:100px;
+}
+#divTwo{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+#description{
+    text-align: center;
+    width:75%;
+}
+
+#imgDis1{
+    display: flex;
+    justify-content: space-around;
+}
+#imgDis1 div{
+    flex-direction:column;
+    width:250px;
+}
+#imgDis1 div img{
+    display: flex;
+    margin-top:42px;
+    width:250px;
+    height:250px;
+    
+}
+#abt{
+    font-size: 30px;
+    text-align: center;
+    padding:5px;
+}
+#abtText p{
+    text-align: center;
+    margin:auto;
+    width:75%;
+}
+#int1{
+    display: flex;
+    align-items: flex-start;
+    padding:10px;
+    justify-content: space-evenly;
+}
+#int2{
+    display: flex;
+    align-items: flex-start;
+    padding:10px;
+    justify-content: space-evenly;
+}
+#int3{
+    display: flex;
+    align-items: flex-start;
+    padding:10px;
+    justify-content: space-evenly;
+}
+div div img{
+    display: flex;
+    width: 150px;
+}
+div div #Interests1{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    justify-content:space-between;
+    padding-right: 295px;
+
+}
+div div #Interests2{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    justify-content:space-between;
+    padding-right: 295px;
+
+}
+div div #Interests3{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    justify-content:space-between;
+    padding-right: 295px;
+
+}
+#divFour{
+    /* padding-left: 350px; */
+    display: flex;
+    flex-direction: column;
+}
+#interestsDiv{
+    display:flex;
+    justify-content: center;
+}
